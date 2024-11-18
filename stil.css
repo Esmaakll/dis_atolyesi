@@ -1,0 +1,170 @@
+/* Genel Sayfa Ayarları */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Üst Kısım ve Navigasyon */
+.ust-kisim {
+    background-color: #1f1f1f;
+    padding: 10px 20px;
+}
+
+.navigasyon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigasyon-linkleri {
+    list-style: none;
+    display: flex;
+}
+
+.navigasyon-linkleri li {
+    margin-left: 20px;
+}
+
+.navigasyon-linkleri a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navigasyon-linkleri a:hover {
+    color: #1e90ff;
+}
+
+/* Banner Alanı (Ana Sayfa) */
+.ana-sayfa {
+    background-color: #1e90ff;
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.ana-sayfa h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.ana-sayfa p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.ana-sayfa img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Hizmetler Bölümü */
+.hizmetler {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hizmetler h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.hizmetler-kutusu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hizmet-kutusu {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    width: calc(33% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hizmet-kutusu h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #1f1f1f;
+}
+
+.hizmet-kutusu p {
+    font-size: 16px;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .hizmet-kutusu {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 500px) {
+    .hizmet-kutusu {
+        width: 100%;
+    }
+}
+
+/* İletişim Bölümü */
+.iletisim {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.iletisim h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.iletisim p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.iletisim-bilgileri p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.harita iframe {
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+/* Alt Kısım (Footer) */
+.alt-kisim {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.alt-kisim p {
+    margin: 0;
+    font-size: 14px;
+}
